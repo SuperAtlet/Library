@@ -1,6 +1,5 @@
 # seed.py
 import asyncio
-from sqlalchemy.ext.asyncio import AsyncSession
 from database import new_session
 from repository import BookRepository
 from schemas.books import SBookAdd
